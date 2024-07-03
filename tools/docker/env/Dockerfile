@@ -3,7 +3,7 @@
 
 # See /tools/docker/README.md for details.
 
-FROM debian:bookworm
+FROM debian:12.6
 
 LABEL homepage="https://github.com/google/syzkaller"
 
