@@ -3,7 +3,7 @@
 
 # See /tools/docker/README.md for details.
 
-FROM debian:bookworm
+FROM debian:12.6
 
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q \
